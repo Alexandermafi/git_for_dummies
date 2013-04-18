@@ -113,9 +113,9 @@ Varför behöver jag en .gitignore?
 - En .gitignore-fil säger till git vilka filer som INTE ska spåras av systemet. Det kan vara bra att ta bort binära filer, som till exempel bilder eller word-dokument (den sista går dock att tracka med lite jobb). Binära filer är något som git inte kan hantera på samma sätt som rena textdokument - för varje gång filen sparas och commitas till systemet kommer det skapas en kopia av filen i fråga: om man har stora filer (.psd, .tif etc.) kan det göra att ens git-projekt tar väldigt mycket plats på datorn (det tar också mycket längre tid att ladda ner projektet). För ett javaprojekt är det till exempel lämpligt att ta bort alla .class filer. Det görs genom att lägga till *.class i .gitignore-filen. Det finns standarduppsättningar av dessa filer på github som är rätt så bra.
 
 Vart ska jag lägga en .gitignore-fil?
-- En .gitignore-fil kommer att påverka alla filer och mappar som ligger i den mapp där .gitignore-filen finns. Lägg alltså den filen i den översta mappen i ert projekt! En .gitignore-fil som syftar att ta bort en filtyp som läggs till efter att sådana filer redan spårats av systemet kommer inte att ha någon effekt - man måste då manuellt säga till git att sluta spåra de filerna. [Läs mer om att avgryta språning här].
+- En .gitignore-fil kommer att påverka alla filer och mappar som ligger i den mapp där .gitignore-filen finns. Lägg alltså den filen i den översta mappen i ert projekt! En .gitignore-fil som syftar att ta bort en filtyp som läggs till efter att sådana filer redan spårats av systemet kommer inte att ha någon effekt - man måste då manuellt säga till git att sluta spåra de filerna. [Läs mer om att avbryta spårning här].
 
-[Läs mer om att avgryta språning här]:http://stackoverflow.com/questions/4124792/remove-an-existing-file-from-a-git-repo
+[Läs mer om att avbryta spårning här]:http://stackoverflow.com/questions/4124792/remove-an-existing-file-from-a-git-repo
 
 # 6. Övrigt – bra att veta
 | Term | Beskrivning |
