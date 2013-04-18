@@ -44,7 +44,6 @@ En guide för hur git-kommandon används i Mac’s terminal (Command line). Inst
 - git pull -> Tar emot en lastbil fylld med varor som läggs in i lagret
 - git fetch -> Tar emot en lastbil fylld med varor men lägger INTE in dessa i lager
 
-
 # 2. Terminal-kommandon (ett urval)
 Det här är alla de kommandon som fungerar i terminalen.
 
