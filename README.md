@@ -37,12 +37,12 @@ En guide för hur git-kommandon används i Mac’s terminal (Command line). Inst
 
 
 # 1. Fabriksmetafor - en I:ares perspektiv
-git status → Låter dig se vilka varor du har i lager
-git add → Lastar ut varorna på lastbryggan
-git commit -m "meddelande" → 	Lastar in varorna i lastbilen. Varorna är markerade med avin ”meddelande”
-git push → Skickar iväg lastbilen till mottagaren
-git pull → Tar emot en lastbil fylld med varor som läggs in i lagret
-git fetch → Tar emot en lastbil fylld med varor men lägger INTE in dessa i lager
+git status -> Låter dig se vilka varor du har i lager
+git add -> Lastar ut varorna på lastbryggan
+git commit -m "meddelande" -> Lastar in varorna i lastbilen. Varorna är markerade med avin ”meddelande”
+git push -> Skickar iväg lastbilen till mottagaren
+git pull -> Tar emot en lastbil fylld med varor som läggs in i lagret
+git fetch -> Tar emot en lastbil fylld med varor men lägger INTE in dessa i lager
 
 
 # 2. Terminal-kommandon (ett urval)
@@ -137,7 +137,7 @@ Följer med git-installationen och är som en terminal för windows. De flesta U
 ## Använd powershell
 Du har säkert hört talas om kommandotolken (kör: cmd). Det finns en bättre ”version”: (kör: powershell). Powershell är ännu kraftfullare än terminalen; powershell kan göra allt som .NET kan göra – dvs. ganska mycket.
 
-Det finns ett ”plugin” till powershell som gör att git integreras. 	Kolla [HÄR] för att få det att fungera. Behöver du hjälp? Fråga Anton.
+Det finns ett ”plugin” till powershell som gör att git integreras. Kolla [HÄR] för att få det att fungera. Behöver du hjälp? Fråga Anton.
 
 # 10. Pro Tip:
 - Sublime text 2 är en helt fantastisk texteditor – [check it out!]
