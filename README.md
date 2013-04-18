@@ -6,7 +6,7 @@ En guide för hur git-kommandon används i Mac’s terminal (Command line). Inst
 3.	Git-kommandon
 4.	Importera ett upplagt projekt i Eclipse
 5.	FAQ
-6.	Övreigt - bra att veta + ordlista
+6.	Övrigt - bra att veta + ordlista
 7.	Återstående frågor att utreda
 8.	Androidprogrammering
 9.	Men vad händer om kan kör Windows?
@@ -76,37 +76,57 @@ Alla kommandon som har med git att göra börjar med git, följt av kommandonamn
 | git checkout –b branchname | Skapar en ny branch kallad branchname och byter till den |
 | git merge branchname | Marge nuvarande branch med branchname |
 
-4. Importera ett upplagt projekt i Eclipse
-5. FAQ
-6. Övrigt - bra att veta + ordlista
-7. Återstående frågor att utreda
-8. Androidprogrammering
-9. Men vad händer om kan kör Windows?
-	- Använd Git Bash
-	- Används powershell
-10. Pro Tip:
-11. Ytterligare Dokumentation
-
-# 3. Importera ett upplagt projekt i Eclipse
+# 4. Importera ett upplagt projekt i Eclipse
 file → import → veckla ut mappen ”android” och tryck på ”Existing Android Code Into Workspace → Välj ”Root Directory”, kryssa i projektet som dyker upp i rutan, tryck finish.
 
 Kodningen sker i Eclipse men all kontakt med repot på servern ska ske genom Terminalen (command line).
+
+
  
-4. FAQ
+# 5. FAQ
 Varför ska jag inte använda Githubs GUI (Graphic User Interface)?
 - För att det inte funkar. Den hittar inte förändringar. Fyra av fem problem som dyker upp beror på att man försöker göra något i GUI:t som inte fungerar. GUI:t är endast utformad efter de vanligaste funktionerna och kan krångla om vissa kommandon används. 
+- FÖr att terminalen är mycket coolare
 
-5. Övrigt – bra att veta
-HEAD – du har en commit som servern inte har
-BEHINDE – servern har en commit som du inte har
-DIVERGE – du har en commit som servern inte har och servern har en commit som du inte har
+# 5. Övrigt – bra att veta
+| AHEAD | du har en eller flera commit som servern inte har (du ligger före) |
+| BEHIND | servern har en/flera commit som du inte har (du ligger efter) |
+| DIVERGE | du har en commit som servern inte har och servern har en commit som du inte har |
+| HEAD | Pekar mot den nuvarande positionen i databasen |
+| Dirty Workspace | du har gjort ändringar som inte ännu commitats till git-databasen |
+| Working Tree | Den version av filer som är laddade just nu |
+| .gitignore | En fil som anger vilka filer eller filtyper som inte ska spåras av git |
 
-Conflict uppstår när två oberoende ändringar har justerad samma rad i en fil.
-6. Återstående frågor att utredas
-Fortsatta frågor:
-1.	Vad gör ctrl + c och när ska man använda detta i terminalen?
-2.	När behöver man trycka på q? Ibland låser sig terminalen och då är lösningen att trycka q, men när?
-3.	Dirty workspace?
+# 6. Återstående frågor att utredas
+[] 1. När behöver man trycka på q? Ibland låser sig terminalen och då är lösningen att trycka q, men när?
 
-7. Androidprogrammering
-•	Du får inte skapa en ny mapp i res-mappen. 
+# 8. Androidprogrammering
+- Du får inte skapa en ny mapp i res-mappen. 
+- Ladda ner en lämplig .gitignore-fil och lägg den i rooten av ditt android-projekt
+
+# 9. Men vad händer om kan kör Windows?
+Går du mot strömmen? Är du lite coolare än alla andra? Kör du Windows? Svara du ja på någon (eller alla) av de frågorna (speciellt sista frågan), läs följande:
+## Använd inte kommandotolken
+Eftersom kommandotolken inte har någon inbyggd git-funktionalitet är det inte så lämpligt att använda den. Det är också lite annorlunda kommandon för att navigera i kommandotolken jämfört med terminalen etc.
+## Använd Git Bash
+Följer med git-installationen och är som en terminal för windows. De flesta Unix-kommandon fungerar (man kan skriva över ännu fler), men den är ganska långsam att använda, vilket är lite tråkigt.
+## Används powershell
+Du har säkert hört talas om kommandotolken (kör: cmd). Det finns en bättre ”version”: (kör: powershell). Powershell är ännu kraftfullare än terminalen; powershell kan göra allt som .NET kan göra – dvs. ganska mycket.
+
+Det finns ett ”plugin” till powershell som gör att git integreras. 	Kolla [HÄR] för att få det att fungera. Behöver du hjälp? Fråga Anton.
+
+# 10. Pro Tip:
+- Sublime text 2 är en helt fantastisk texteditor – [check it out!]
+- Om du använder Mac eller Linux, fixa Zsh och byt ut den gamla tråkiga terminalen. Länk och lite förklaring [finns här].
+- Lägg till aliases i terminalen för kommandon du använder ofta – sparar tid!
+
+# 11. Ytterligare Dokumentation
+- http://git-scm.org: officiella hemsidan för .git
+- http://gitref.org: referens för vanliga kommandon (ganska enkelt förklarat)
+- Intro till .git som gjorts av en av grundarna till github: [youtube]
+
+
+[här]:http://haacked.com/archive/2011/12/13/better-git-with-powershell.aspx
+[youtube]:http://www.youtube.com/watch?feature=player_detailpage&v=ZDR433b0HJY#t=2791s
+[check it out!]:http://www.sublimetext.com/2
+[finns här]:http://www.maclife.com/article/columns/terminal_101_better_shell_zsh
