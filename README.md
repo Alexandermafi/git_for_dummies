@@ -26,6 +26,7 @@ git fetch → Tar emot en lastbil fylld med varor men lägger INTE in dessa i la
 
 # 2. Terminal-kommandon (ett urval)
 Det här är alla de kommandon som fungerar i terminalen.
+
 | Kommando | Funktion |
 | ------ | ------ |
 | cd | Change directory – byt map |
