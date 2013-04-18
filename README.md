@@ -69,8 +69,9 @@ Det här är alla de kommandon som fungerar i terminalen.
 | grep –r searchterm | Söker rekursive I ALLA FILER efter söktermen. Mycket kraftfullt! Går att använda med wildcard (*) |
 | EXTREMT MYCKET MER | Googla |
 
-Alla kommandon som har med git att göra börjar med git, följt av kommandonamnet. Detta säger till terminalen att den ska använda git och köra de efterföljande funktionerna som definierats av git.
 # 3. Git-kommandon
+Alla kommandon som har med git att göra börjar med git, följt av kommandonamnet. Detta säger till terminalen att den ska använda git och köra de efterföljande funktionerna som definierats av git. För att se vanliga funktioner som finns, skriv bara git i terminalen och tryck på enter
+
 | Kommando | Funktion |
 | ------ | ------ |
 | git clone | Skapar en mapp med samman namn som repot (repository) och kopierar innehållet i repot dit. Sätter även upp inställningar för att pusha och pulla till remoten (servern). |
