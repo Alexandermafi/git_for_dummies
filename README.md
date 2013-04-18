@@ -1,21 +1,32 @@
 #Git for Dummies, Mac edition
 En guide för hur git-kommandon används i Mac’s terminal (Command line). Instruktionerna gäller till största del även för PC. De understrukna orden är git-kommandon och texten under är förklaring på vad kommandona gör. Guiden kommer använda sig av en fabriksmetafor för att ge I:are möjlighet att förstå git utifrån ett mer familjärt perspektiv. 
 
-1.	Fabriksmetafor - en I:ares perspektiv
-2.	Terminal-kommandon (ett urval)
-3.	Git-kommandon
-4.	Importera ett upplagt projekt i Eclipse
-5.	FAQ
-6.	Övrigt - bra att veta + ordlista
-7.	Återstående frågor att utreda
-8.	Androidprogrammering
-9.	Men vad händer om kan kör Windows?
-		- Använd Git Bash
-		- Används powershell
-10.	Pro Tip:
-11. Ytterligare Dokumentation
+[1. Fabriksmetafor - en I:ares perspektiv]
+[2. Terminal-kommandon (ett urval)]
+[3. Git-kommandon]
+[4. Importera ett upplagt projekt i Eclipse]
+[5. FAQ]
+[6. Övrigt - bra att veta + ordlista]
+[7. Återstående frågor att utreda]
+[8. Androidprogrammering]
+[9. Men vad händer om kan kör Windows?]
+[10. Pro Tip:]
+[11. Ytterligare Dokumentation]
 
-# 1. Fabriksmetafor – en I:ares perpektiv
+[1. Fabriksmetafor - en I:ares perspektiv]:https://github.com/Alexandermafi/git_for_dummies#1-fabriksmetafor--en-iares-perpektiv
+[2. Terminal-kommandon (ett urval)]:https://github.com/Alexandermafi/git_for_dummies#2-terminal-kommandon-ett-urval
+[3. Git-kommandon]:https://github.com/Alexandermafi/git_for_dummies#3-git-kommandon
+[4. Importera ett upplagt projekt i Eclipse]:https://github.com/Alexandermafi/git_for_dummies#4-importera-ett-upplagt-projekt-i-eclipse
+[5. FAQ]:https://github.com/Alexandermafi/git_for_dummies#5-faq
+[6. Övrigt - bra att veta + ordlista]:https://github.com/Alexandermafi/git_for_dummies#6-vrigt--bra-att-veta
+[7. Återstående frågor att utreda]:https://github.com/Alexandermafi/git_for_dummies#7-terstende-frgor-att-utredas
+[8. Androidprogrammering]:https://github.com/Alexandermafi/git_for_dummies#8-androidprogrammering
+[9. Men vad händer om kan kör Windows?]:https://github.com/Alexandermafi/git_for_dummies#9-men-vad-hnder-om-kan-kr-windows
+[10. Pro Tip:]:https://github.com/Alexandermafi/git_for_dummies#10-pro-tip
+[11. Ytterligare Dokumentation]:https://github.com/Alexandermafi/git_for_dummies#11-ytterligare-dokumentation
+
+
+# 1. Fabriksmetafor - en I:ares perspektiv
 git status → Låter dig se vilka varor du har i lager
 git add → Lastar ut varorna på lastbryggan
 git commit -m "meddelande" → 	Lastar in varorna i lastbilen. Varorna är markerade med avin ”meddelande”
@@ -88,7 +99,9 @@ Varför ska jag inte använda Githubs GUI (Graphic User Interface)?
 - För att det inte funkar. Den hittar inte förändringar. Fyra av fem problem som dyker upp beror på att man försöker göra något i GUI:t som inte fungerar. GUI:t är endast utformad efter de vanligaste funktionerna och kan krångla om vissa kommandon används. 
 - FÖr att terminalen är mycket coolare
 
-# 5. Övrigt – bra att veta
+# 6. Övrigt – bra att veta
+| Term | Beskrivning |
+| ------ | ------ |
 | AHEAD | du har en eller flera commit som servern inte har (du ligger före) |
 | BEHIND | servern har en/flera commit som du inte har (du ligger efter) |
 | DIVERGE | du har en commit som servern inte har och servern har en commit som du inte har |
@@ -97,8 +110,8 @@ Varför ska jag inte använda Githubs GUI (Graphic User Interface)?
 | Working Tree | Den version av filer som är laddade just nu |
 | .gitignore | En fil som anger vilka filer eller filtyper som inte ska spåras av git |
 
-# 6. Återstående frågor att utredas
-[] 1. När behöver man trycka på q? Ibland låser sig terminalen och då är lösningen att trycka q, men när?
+# 7. Återstående frågor att utredas
+[ ] 1. När behöver man trycka på q? Ibland låser sig terminalen och då är lösningen att trycka q, men när?
 
 # 8. Androidprogrammering
 - Du får inte skapa en ny mapp i res-mappen. 
@@ -110,7 +123,7 @@ Går du mot strömmen? Är du lite coolare än alla andra? Kör du Windows? Svar
 Eftersom kommandotolken inte har någon inbyggd git-funktionalitet är det inte så lämpligt att använda den. Det är också lite annorlunda kommandon för att navigera i kommandotolken jämfört med terminalen etc.
 ## Använd Git Bash
 Följer med git-installationen och är som en terminal för windows. De flesta Unix-kommandon fungerar (man kan skriva över ännu fler), men den är ganska långsam att använda, vilket är lite tråkigt.
-## Används powershell
+## Använd powershell
 Du har säkert hört talas om kommandotolken (kör: cmd). Det finns en bättre ”version”: (kör: powershell). Powershell är ännu kraftfullare än terminalen; powershell kan göra allt som .NET kan göra – dvs. ganska mycket.
 
 Det finns ett ”plugin” till powershell som gör att git integreras. 	Kolla [HÄR] för att få det att fungera. Behöver du hjälp? Fråga Anton.
