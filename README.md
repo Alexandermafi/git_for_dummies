@@ -1,4 +1,4 @@
-Git for Dummies, Mac edition
+#Git for Dummies, Mac edition
 En guide för hur git-kommandon används i Mac’s terminal (Command line). Instruktionerna gäller till största del även för PC. De understrukna orden är git-kommandon och texten under är förklaring på vad kommandona gör. Guiden kommer använda sig av en fabriksmetafor för att ge I:are möjlighet att förstå git utifrån ett mer familjärt perspektiv. 
 
 1.	Fabriksmetafor - en I:ares perspektiv
@@ -25,6 +25,8 @@ git fetch → Tar emot en lastbil fylld med varor men lägger INTE in dessa i la
 
 
 # 2. Terminal-kommandon (ett urval)
+Det här är alla de kommandon som fungerar i terminalen.
+
 | Kommando | Funktion |
 | ------ | ------ |
 | cd | Change directory – byt map |
@@ -46,6 +48,7 @@ git fetch → Tar emot en lastbil fylld med varor men lägger INTE in dessa i la
 | grep –r searchterm | Söker rekursive I ALLA FILER efter söktermen. Mycket kraftfullt! Går att använda med wildcard (*) |
 | EXTREMT MYCKET MER | Googla |
 
+Alla kommandon som har med git att göra börjar med git, följt av kommandonamnet. Detta säger till terminalen att den ska använda git och köra de efterföljande funktionerna som definierats av git.
 # 3. Git-kommandon
 | Kommando | Funktion |
 | ------ | ------ |
@@ -75,7 +78,7 @@ git fetch → Tar emot en lastbil fylld med varor men lägger INTE in dessa i la
 
 4. Importera ett upplagt projekt i Eclipse
 5. FAQ
-6. Övreigt - bra att veta + ordlista
+6. Övrigt - bra att veta + ordlista
 7. Återstående frågor att utreda
 8. Androidprogrammering
 9. Men vad händer om kan kör Windows?
@@ -106,9 +109,4 @@ Fortsatta frågor:
 3.	Dirty workspace?
 
 7. Androidprogrammering
-
 •	Du får inte skapa en ny mapp i res-mappen. 
-
-
-
->>>>>>> origin
