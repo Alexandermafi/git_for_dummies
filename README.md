@@ -1,7 +1,8 @@
 #Git for Dummies, Mac edition
 En guide för hur git-kommandon används i Mac’s terminal (Command line). Instruktionerna gäller till största del även för PC. De understrukna orden är git-kommandon och texten under är förklaring på vad kommandona gör. Guiden kommer använda sig av en fabriksmetafor för att ge I:are möjlighet att förstå git utifrån ett mer familjärt perspektiv. 
 
-[1. Fabriksmetafor - en I:ares perspektiv]     return
+[1. Fabriksmetafor - en I:ares perspektiv]
+
 [2. Terminal-kommandon (ett urval)]
 
 [3. Git-kommandon]
@@ -36,12 +37,12 @@ En guide för hur git-kommandon används i Mac’s terminal (Command line). Inst
 
 
 # 1. Fabriksmetafor - en I:ares perspektiv
-git status -> Låter dig se vilka varor du har i lager
-git add -> Lastar ut varorna på lastbryggan
-git commit -m "meddelande" -> Lastar in varorna i lastbilen. Varorna är markerade med avin ”meddelande”
-git push -> Skickar iväg lastbilen till mottagaren
-git pull -> Tar emot en lastbil fylld med varor som läggs in i lagret
-git fetch -> Tar emot en lastbil fylld med varor men lägger INTE in dessa i lager
+- git status -> Låter dig se vilka varor du har i lager
+- git add -> Lastar ut varorna på lastbryggan
+- git commit -m "meddelande" -> Lastar in varorna i lastbilen. Varorna är markerade med avin ”meddelande”
+- git push -> Skickar iväg lastbilen till mottagaren
+- git pull -> Tar emot en lastbil fylld med varor som läggs in i lagret
+- git fetch -> Tar emot en lastbil fylld med varor men lägger INTE in dessa i lager
 
 
 # 2. Terminal-kommandon (ett urval)
