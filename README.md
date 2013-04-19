@@ -157,7 +157,7 @@ Det finns ett ”plugin” till powershell som gör att git integreras. Kolla [H
 - Intro till .git som gjorts av en av grundarna till github: [youtube]
 
 
-[här]:http://haacked.com/archive/2011/12/13/better-git-with-powershell.aspx
+[HÄR]:http://haacked.com/archive/2011/12/13/better-git-with-powershell.aspx
 [youtube]:http://www.youtube.com/watch?feature=player_detailpage&v=ZDR433b0HJY#t=2791s
 [check it out!]:http://www.sublimetext.com/2
 [finns här]:http://www.maclife.com/article/columns/terminal_101_better_shell_zsh
