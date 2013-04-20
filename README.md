@@ -66,6 +66,7 @@ Det här är alla de kommandon som fungerar i terminalen.
 | kommando --help | Får upp en kortare hjälp för ett kommando |
 | ctrl + c | Avbryter nuvarande kommando |
 | grep –r searchterm | Söker rekursive I ALLA FILER efter söktermen. Mycket kraftfullt! Går att använda med wildcard (*) |
+| cat ~/.ssh/id_rsa.pub | Öppnar din ssh-nyckel så att du kan lägga in den på github |
 | EXTREMT MYCKET MER | Googla |
 
 # 3. Git-kommandon
