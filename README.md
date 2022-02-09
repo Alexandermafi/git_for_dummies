@@ -79,7 +79,7 @@ Alla kommandon som har med git att göra börjar med git, följt av kommandonamn
 | git add filnamn | Lastar ut filen filnamn på lastbryggan. Används också för att säga till git att spåra nya filer eller mappar.  |
 | git add . | Lastar ut alla modiferade filer (i den aktuella mappen?) på lastbryggan |
 | git commit –m ”meddelande” | Lastar in det i lastbilen med avin ”meddelande” |
-| git commit –a -m ”meddelande” | För dig som är lite lat och lastar lastbilen utan lastbrygga |
+| git commit –a –m ”meddelande” | För dig som är lite lat och lastar lastbilen utan lastbrygga |
 | git push | Skickar iväg lastbilen till repository i molnet (på internet/gihub). SKICKA BARA IVÄG FUNGERANDE KOD! |
 | git pull | Drar ner ändringar från centrala repository (från internet/github). Marge:ar ditt lokala repository med centrala repository i molnet. |
 | git fetch | Drar ner ändringar från centrala repository men utan att merge:a. Läggs under branch origin/master, som man sen kan merge:a med. Man måste göra en pull eller fetch för att kunna hämta hem ändringar som andra personer commit:at. |
