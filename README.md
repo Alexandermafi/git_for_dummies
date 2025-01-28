@@ -8,33 +8,27 @@ A guide on how to use git commands in Mac's terminal (command line), instruction
 
 [3. Git commands]
 
-[4. Import a set-up project in Eclipse]
+[4. FAQ]
 
-[5. FAQ]
+[5. Miscellaneous - good to know + glossary]
 
-[6. Miscellaneous - good to know + glossary]
+[6. Remaining questions to investigate]
 
-[7. Remaining questions to investigate]
+[7. But what if you're running Windows?]
 
-[8. Android programming]
+[8. Pro Tip]
 
-[9. But what if you're running Windows?]
-
-[10. Pro Tip]
-
-[11. Additional Documentation]
+[9. Additional Documentation]
 
 [1. Factory Metaphor - industrial engineering student perspective]:https://github.com/Alexandermafi/git_for_dummies#1-fabriksmetafor--industrial-engineering-student-perspective
 [2. Terminal commands (a selection)]:https://github.com/Alexandermafi/git_for_dummies#2-terminal-commands-a-selection
 [3. Git commands]:https://github.com/Alexandermafi/git_for_dummies#3-git-commands
-[4. Import a set-up project in Eclipse]:https://github.com/Alexandermafi/git_for_dummies#4-Import-a-set-up-project-in-Eclipse
-[5. FAQ]:https://github.com/Alexandermafi/git_for_dummies#5-faq
-[6. Miscellaneous - good to know + glossary]:https://github.com/Alexandermafi/git_for_dummies#6-Miscellaneous--good-to-know
-[7. Remaining questions to investigate]:https://github.com/Alexandermafi/git_for_dummies#7-Remaining-questions-to-investigate
-[8. Android programming]:https://github.com/Alexandermafi/git_for_dummies#8-android-programing
-[9. But what if you're running Windows?]:https://github.com/Alexandermafi/git_for_dummies#9-But-what-if-you-re-running-Windows
-[10. Pro Tip]:https://github.com/Alexandermafi/git_for_dummies#10-pro-tip
-[11. Additional Documentation]:https://github.com/Alexandermafi/git_for_dummies#11-Additional-Documentation
+[4. FAQ]:https://github.com/Alexandermafi/git_for_dummies#5-faq
+[5. Miscellaneous - good to know + glossary]:https://github.com/Alexandermafi/git_for_dummies#6-Miscellaneous--good-to-know
+[6. Remaining questions to investigate]:https://github.com/Alexandermafi/git_for_dummies#7-Remaining-questions-to-investigate
+[7. But what if you're running Windows?]:https://github.com/Alexandermafi/git_for_dummies#9-But-what-if-you-re-running-Windows
+[8. Pro Tip]:https://github.com/Alexandermafi/git_for_dummies#10-pro-tip
+[9. Additional Documentation]:https://github.com/Alexandermafi/git_for_dummies#11-Additional-Documentation
 
 
 # 1. Factory Metaphor - industrial engineering student perspective
@@ -57,11 +51,9 @@ These are all the commands that work in the terminal.
 
 | Command | Function |
 | ------ | ------ |
-| cd | Change directory – change folder |
-| cd . | |
-| cd .. | |
-| cd ~ | changes to your home folder (user) |
 | cd folder1/folder2/folder3 | Changes to folder 3, which is in folder2 etc |
+| cd .. | Change directory to one step up |
+| cd ~ | changes to your home folder (user) |
 | touch filename | Creates a new file named filename |
 | ls | Shows visible files and folders in the current location |
 | ls –a | Shows all (including hidden) files and folders in the current location: -a is called a flag for ls |
@@ -107,13 +99,7 @@ All commands that have to do with git start with git, followed by the command na
 | git checkout –b branchname | Creates a new branch called branchname and switches to it |
 | git merge branchname | Merge current branch with branchname |
 
-# 4. Import a set-up project in Eclipse
-
-file → import → expand the "android" folder and click on "Existing Android Code Into Workspace → Select "Root Directory", check the project that appears in the box, press finish.
-
-Coding is done in Eclipse but all contact with the repo on the server should be done through the Terminal (command line).
-
-# 5. FAQ
+# 4. FAQ
 
 Why shouldn't I use Github's GUI (Graphic User Interface)?
 
@@ -129,7 +115,7 @@ Where should I put a .gitignore file?
 
 - A .gitignore file will affect all files and folders that are in the folder where the .gitignore file is located. So put that file in the top folder of your project! A .gitignore file that aims to remove a file type that is added after such files have already been tracked by the system will have no effect - you must then manually tell git to stop tracking those files. [Read more about stopping tracking here].
 
-# 6. Miscellaneous – good to know
+# 5. Miscellaneous – good to know
 
 | Term | Description |
 | ------ | ------ |
@@ -141,17 +127,12 @@ Where should I put a .gitignore file?
 | Working Tree | The version of files that are currently loaded |
 | .gitignore | A file that specifies which files or file types should not be tracked by git |
 
-# 7. Remaining questions to investigate
+# 6. Remaining questions to investigate
 
 - [ ] 1. When do you need to press q? Sometimes the terminal locks up and then the solution is to press q, but when?
 
-# 8. Android programming
 
-- You are not allowed to create a new folder in the res folder.
-
-- Download a suitable .gitignore file and place it in the root of your android project
-
-# 9. But what if you're running Windows?
+# 7. But what if you're running Windows?
 
 Are you going against the stream? Are you a bit cooler than everyone else? Do you run Windows? If you answered yes to any (or all) of these questions (especially the last question), read the following:
 
@@ -169,7 +150,7 @@ You've probably heard of the command prompt (run: cmd). There's a better "versio
 
 There's a "plugin" for powershell that integrates git. Check [HERE] to make it work. Need help? Ask Anton.
 
-# 10. Pro Tip
+# 8. Pro Tip
 
 - Sublime text 2 is a fantastic text editor – [check it out!]
 
@@ -177,10 +158,15 @@ There's a "plugin" for powershell that integrates git. Check [HERE] to make it w
 
 - Add aliases in the terminal for commands you use often – saves time!
 
-# 11. Additional Documentation
+# 9. Additional Documentation
 
 - http://git-scm.org: official website for .git
 
 - http://gitref.org: reference for common commands (explained quite simply)
 
 - Intro to .git made by one of the founders of github: [youtube]
+
+[HERE]:http://haacked.com/archive/2011/12/13/better-git-with-powershell.aspx
+[youtube]:http://www.youtube.com/watch?feature=player_detailpage&v=ZDR433b0HJY#t=2791s
+[check it out!]:http://www.sublimetext.com/2
+[can be found here]:http://www.maclife.com/article/columns/terminal_101_better_shell_zsh
