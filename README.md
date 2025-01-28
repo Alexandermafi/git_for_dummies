@@ -2,7 +2,7 @@
 
 A guide on how to use git commands in Mac's terminal (command line), instructions mostly apply to PC as well. Commands in git and terminal (command line) will be explained and presented to provide insight into what can be done. The guide will use a factory metaphor to give I:are (Industrial Engineering and Management students) the opportunity to understand git from a more familiar perspective.
 
-[1. Factory Metaphor - an I:are's perspective]
+[1. Factory Metaphor - industrial engineering student perspective]
 
 [2. Terminal commands (a selection)]
 
@@ -20,11 +20,24 @@ A guide on how to use git commands in Mac's terminal (command line), instruction
 
 [9. But what if you're running Windows?]
 
-[10. Pro Tip:]
+[10. Pro Tip]
 
 [11. Additional Documentation]
 
-# 1. Factory Metaphor - an I:are's perspective
+[1. Factory Metaphor - industrial engineering student perspective]:https://github.com/Alexandermafi/git_for_dummies#1-fabriksmetafor--industrial-engineering-student-perspective
+[2. Terminal commands (a selection)]:https://github.com/Alexandermafi/git_for_dummies#2-terminal-commands-a-selection
+[3. Git commands]:https://github.com/Alexandermafi/git_for_dummies#3-git-commands
+[4. Import a set-up project in Eclipse]:https://github.com/Alexandermafi/git_for_dummies#4-Import-a-set-up-project-in-Eclipse
+[5. FAQ]:https://github.com/Alexandermafi/git_for_dummies#5-faq
+[6. Miscellaneous - good to know + glossary]:https://github.com/Alexandermafi/git_for_dummies#6-Miscellaneous--good-to-know
+[7. Remaining questions to investigate]:https://github.com/Alexandermafi/git_for_dummies#7-Remaining-questions-to-investigate
+[8. Android programming]:https://github.com/Alexandermafi/git_for_dummies#8-android-programing
+[9. But what if you're running Windows?]:https://github.com/Alexandermafi/git_for_dummies#9-But-what-if-you-re-running-Windows
+[10. Pro Tip:]:https://github.com/Alexandermafi/git_for_dummies#10-pro-tip
+[11. Additional Documentation]:https://github.com/Alexandermafi/git_for_dummies#11-Additional-Documentation
+
+
+# 1. Factory Metaphor - industrial engineering student perspective
 
 - git status -> Lets you see what goods you have in stock
 
