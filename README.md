@@ -1,6 +1,6 @@
 # Git for Dummies, Mac edition
 
-A guide on how to use git commands in Mac's terminal (command line), instructions mostly apply to PC as well. Commands in git and terminal (command line) will be explained and presented to provide insight into what can be done. The guide will use a factory metaphor to give I:are (Industrial Engineering and Management students) the opportunity to understand git from a more familiar perspective.
+A guide on how to use git commands in Mac's terminal (command line), instructions mostly apply to PC as well. Commands in git and terminal (command line) will be explained and presented to provide insight into what can be done. The guide will use a factory metaphor to give Industrial Engineering and Management students the opportunity to understand git from a more familiar perspective.
 
 [1. Factory Metaphor - industrial engineering student perspective]
 
@@ -33,7 +33,7 @@ A guide on how to use git commands in Mac's terminal (command line), instruction
 [7. Remaining questions to investigate]:https://github.com/Alexandermafi/git_for_dummies#7-Remaining-questions-to-investigate
 [8. Android programming]:https://github.com/Alexandermafi/git_for_dummies#8-android-programing
 [9. But what if you're running Windows?]:https://github.com/Alexandermafi/git_for_dummies#9-But-what-if-you-re-running-Windows
-[10. Pro Tip:]:https://github.com/Alexandermafi/git_for_dummies#10-pro-tip
+[10. Pro Tip]:https://github.com/Alexandermafi/git_for_dummies#10-pro-tip
 [11. Additional Documentation]:https://github.com/Alexandermafi/git_for_dummies#11-Additional-Documentation
 
 
@@ -169,7 +169,7 @@ You've probably heard of the command prompt (run: cmd). There's a better "versio
 
 There's a "plugin" for powershell that integrates git. Check [HERE] to make it work. Need help? Ask Anton.
 
-# 10. Pro Tip:
+# 10. Pro Tip
 
 - Sublime text 2 is a fantastic text editor – [check it out!]
 
