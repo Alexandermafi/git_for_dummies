@@ -1,4 +1,4 @@
-# Git for Dummies, Mac edition
+# Git for Dummies
 
 A guide on how to use git commands in Mac's terminal (command line), instructions mostly apply to PC as well. Commands in git and terminal (command line) will be explained and presented to provide insight into what can be done. The guide will use a factory metaphor to give Industrial Engineering and Management students the opportunity to understand git from a more familiar perspective.
 
