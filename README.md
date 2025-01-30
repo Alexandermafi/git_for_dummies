@@ -1,10 +1,10 @@
 # Git for Dummies
 
-A guide on how to use Git in the terminal (the command line). Commands in Git and the terminal line will be explained and presented to provide insight into what can be done. The guide will use a factory metaphor to understand git from perhaps a more familiar perspective. 
+A guide on how to use Git in the command line (e.g. Terminal). Commands in Git and the command line will be explained and presented to provide insight into what can be done. The guide will use a factory metaphor to understand git from perhaps a more familiar perspective. 
 
 [1. Factory Metaphor]
 
-[2. Terminal commands (a selection)]
+[2. Unix commands (a selection)]
 
 [3. Git commands]
 
@@ -47,9 +47,9 @@ Metaphor concepts used: Inventory, loading dock, trucks shipping goods
 
 - git fetch -> Receives a truck full of goods but does NOT put them into your inventory
 
-# 2. Terminal commands (a selection)
+# 2. Unix commands (a selection)
 
-These are all the commands that work in the terminal (the command line). More details here: https://www.oliverelliott.org/article/computing/tut_unix/#100UsefulUnixCommands
+These are all the UNIX commands that work in the command line (e.g. Terminal). More details here: https://www.oliverelliott.org/article/computing/tut_unix/#100UsefulUnixCommands
 
 It's necessary to learn a few basic operating system concepts like how to operate on files, directories, and file systems with the command line. 
 
