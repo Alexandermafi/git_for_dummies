@@ -72,7 +72,7 @@ It's necessary to learn a few basic operating system concepts like how to operat
 | nano README.md | Opens the file README.md in the terminal with the nano editor. You can then change the content directly in the terminal. Only applies to UNIX systems. |
 | vim README.md | Opens the file README.md in vim. Vim is cool (street cred in the IT world – kind of like driving an Aston Martin among I:are). |
 | man command | Brings up a detailed description of the command. EX: man cd |
-| command --help | Brings up a shorter help for a command |
+| command --help | Brings up a shorter help for a command. E.g. "git clone --help|
 | grep –r searchterm | Searches recursively in ALL FILES for the search term. Very powerful! Can be used with wildcard (*) |
 | ctrl + c | Interrupts the current command |
 
