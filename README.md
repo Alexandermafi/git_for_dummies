@@ -1,6 +1,6 @@
 # Git for Dummies
 
-A guide on how to use Git commands in the terminal (the command line). Commands in Git and the terminal line will be explained and presented to provide insight into what can be done. The guide will use a factory metaphor to understand git from perhaps a more familiar perspective. 
+A guide on how to use Git in the terminal (the command line). Commands in Git and the terminal line will be explained and presented to provide insight into what can be done. The guide will use a factory metaphor to understand git from perhaps a more familiar perspective. 
 
 [1. Factory Metaphor]
 
@@ -32,6 +32,8 @@ A guide on how to use Git commands in the terminal (the command line). Commands 
 
 
 # 1. Factory Metaphor
+
+Metaphor concepts used: Inventory, loading dock, trucks shipping goods
 
 - git status -> Lets you see what goods you have in your inventory
 
@@ -108,12 +110,6 @@ All commands that have to do with git start with git, followed by the command na
 
 
 # 4. FAQ
-
-Why shouldn't I use Github's GUI (Graphic User Interface)?
-
-- Because it doesn't work. It doesn't find changes. Four out of five problems that pop up are due to trying to do something in the GUI that doesn't work. The GUI is only designed for the most common functions and can be tricky if certain commands are used.
-
-- Because the terminal is much cooler
 
 Why do I need a .gitignore?
 
