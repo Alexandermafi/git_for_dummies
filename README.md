@@ -21,7 +21,7 @@ A guide on how to use Git in the command line (e.g. Terminal). Commands in Git a
 [9. Additional Documentation]
 
 [1. Factory Metaphor]:https://github.com/Alexandermafi/git_for_dummies#1-factory-metaphor
-[2. Terminal commands (a selection)]:https://github.com/Alexandermafi/git_for_dummies#2-terminal-commands-a-selection
+[2. Unix Commands (a selection)]:https://github.com/Alexandermafi/git_for_dummies#2-unix-commands-a-selection
 [3. Git commands]:https://github.com/Alexandermafi/git_for_dummies#3-git-commands
 [4. FAQ]:https://github.com/Alexandermafi/git_for_dummies#5-faq
 [5. Miscellaneous - good to know + glossary]:https://github.com/Alexandermafi/git_for_dummies#6-Miscellaneous--good-to-know
