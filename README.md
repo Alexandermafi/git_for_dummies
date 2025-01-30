@@ -84,9 +84,9 @@ All commands that have to do with git start with git, followed by the command na
 | git clone | Creates a folder with the same name as the repo (repository) and copies the repo's contents there. It also sets up settings to push and pull to the remote (server). |
 | git status | These are our eyes. Gives an overview of which files are modified. Sees which goods are in inventory. There are also a lot of tips on commands you can use here. |
 | git add filename | Loads the file filename onto the loading dock. Also used to tell git to track new files or folders. |
-| git add . | Loads all modified files (in the current folder?) onto the loading dock |
+| git add . | Loads all modified files (in the current folder and subdirectories) onto the loading dock |
 | git commit –m "message" | Loads it into the truck with the note "message" |
-| git commit –a –m "message" | For those who are a bit lazy and load the truck without a loading dock |
+| git commit –a –m "message" | For those who are a bit lazy and load the truck without a loading dock. Only works on files that have been explicitly tracked by "git add" before (it stages and commits tracked files only, not new files) |
 | git push | Sends the truck to the repository in the cloud (on the internet/github). ONLY SEND WORKING CODE! |
 | git pull | Pulls down changes from the central repository (from internet/github). Merges your local repository with the central repository in the cloud. |
 | git fetch | Pulls down changes from the central repository but without merging. Placed under branch origin/master, which you can then merge. You must do a pull or fetch to be able to retrieve changes that other people have committed. |
@@ -101,14 +101,24 @@ All commands that have to do with git start with git, followed by the command na
 | git log | Lists all previous commits and shows who posted them in order; latest first |
 | git branch | lists all branches that exist |
 | git branch branchname | Creates a new branch called branchname |
-| git checkout branchname | Switches from current branch to branchname |
-| git switch branchname | Switches from current branch to branchname |
-| git checkout –b branchname | Creates a new branch called branchname and switches to it |
 | git merge branchname | Merge current branch with branchname |
 | git init | create a new repository in the folder where you stand |
 | git rebase | align commit history |
 | git revert | undo commits |
 
+The git stash command helps you save modifications that you're not ready to commit yet. Think of it as a temporary drawer where you can store your work-in-progress changes.
+
+| Command | Function |
+| ------ | ------ |
+| `git stash` | Save your current changes in a temporary storage and revert to the last commit |
+| `git stash save "message"` | Same as `git stash` but with a descriptive message |
+| `git stash list` | Show all stashed changes |
+| `git stash apply` | Apply the most recent stash but keep it in the stash list |
+| `git stash pop` | Apply the most recent stash and remove it from the stash list |
+| `git stash drop` | Remove the most recent stash |
+| `git stash clear` | Remove all stashes |
+
+Using the factory metaphor: Think of stash as a temporary storage room where you can put work-in-progress goods that aren't ready for shipping yet.
 
 # 4. FAQ
 
@@ -127,14 +137,32 @@ Where should I put a .gitignore file?
 | AHEAD | you have one or more commits that the server doesn't have (you're ahead) |
 | BEHIND | the server has one/several commits that you don't have (you're behind) |
 | DIVERGE | you have a commit that the server doesn't have and the server has a commit that you don't have |
-| HEAD | Points to the current position in the database |
+| HEAD | Points to the current position in the database (points to the latest commit in the current branch)|
 | Dirty Workspace | you have made changes that haven't yet been committed to the git database |
 | Working Tree | The version of files that are currently loaded |
 | .gitignore | A file that specifies which files or file types should not be tracked by git |
 
-# 6. Remaining questions to investigate
 
-- [ ] 1. When do you need to press q? Sometimes the terminal locks up and then the solution is to press q, but when? Sometimes you need to press "control + c"
+
+# 6. When the Terminal Locks Up - Press Q or "ctrl + c" to get Out
+
+Terminal Navigation: When to use 'q' vs 'control + c'. Think of 'q' as a gentle exit from a viewing mode, while 'control + c' is an emergency stop button for active processes.
+
+### Press 'q' (quit)
+Used when you're in a pager view - a scrollable interface that displays content page by page. You'll typically see a colon ':' at the bottom of the screen.
+Common commands that open pager views:
+
+- `git log` - When viewing commit history
+- `man` commands - When reading manual pages
+- `git diff` - When the diff is longer than your screen height
+
+### Press 'control + c'
+Used to interrupt or stop processes. Common scenarios:
+
+Interrupting a running command or process
+Exiting out of a "stuck" or hanging operation
+Stopping an infinite loop or long-running operation
+Canceling an interactive prompt
 
 
 # 7. But what if I'm running Windows?
@@ -150,7 +178,7 @@ Since the command prompt has no built-in git functionality, it's not very suitab
 
 ### Use Git Bash
 
-Comes with the git installation and is like a terminal for windows. Most Unix commands work (you can overwrite even more), but it's quite slow to use, which is a bit sad.
+Comes with the git installation and is like a terminal for windows. Most Unix commands work (you can overwrite even more).
 
 
 # 8. Pro Tip
