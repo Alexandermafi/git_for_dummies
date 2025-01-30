@@ -53,7 +53,7 @@ Basic Unix commands for file and folder manipulation that work in the command li
 
 Mac and Linux are unix-like systems and therefore unix commands works of the box. 
 
-For Windows the unic commands won't work by default, but you can install The Windows Subsystem for Linux (WSL) to get the same command line experience. Guide: https://learn.microsoft.com/en-us/windows/wsl/install. This allows you to e.g. install Ubuntu on your windows machine. 
+For Windows the unix commands won't work by default, but you can install The Windows Subsystem for Linux (WSL) to get the same command line experience. Guide: https://learn.microsoft.com/en-us/windows/wsl/install. This allows you to e.g. install Ubuntu on your windows machine. 
 
 It's necessary to learn a few basic operating system concepts like how to operate on files, directories, and file systems with the command line. Since using Git with the command line, relies on the foundation knowledge of using unix commands to manipulate files and folders. 
 
@@ -138,19 +138,22 @@ Where should I put a .gitignore file?
 - [ ] 1. When do you need to press q? Sometimes the terminal locks up and then the solution is to press q, but when?
 
 
-# 7. But what if you're running Windows?
+# 7. But what if I'm running Windows?
 
 Are you going against the stream? Are you a bit cooler than everyone else? Do you run Windows? If you answered yes to any (or all) of these questions (especially the last question), read the following:
 
-## Don't use the command prompt
+### Install The Windows Subsystem for Linux (WSL)
+For Windows the unix commands won't work by default, but you can install The Windows Subsystem for Linux (WSL) to get the same command line experience. Guide: https://learn.microsoft.com/en-us/windows/wsl/install. This allows you to e.g. install Ubuntu on your windows machine. 
+
+### Don't use the command prompt
 
 Since the command prompt has no built-in git functionality, it's not very suitable to use. There are also slightly different commands for navigating in the command prompt compared to the terminal etc.
 
-## Use Git Bash
+### Use Git Bash
 
 Comes with the git installation and is like a terminal for windows. Most Unix commands work (you can overwrite even more), but it's quite slow to use, which is a bit sad.
 
-## Use powershell
+### Use powershell
 
 You've probably heard of the command prompt (run: cmd). There's a better "version": (run: powershell). Powershell is even more powerful than the terminal; powershell can do everything .NET can do – i.e. quite a lot.
 
