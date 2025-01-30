@@ -158,9 +158,9 @@ There's a "plugin" for powershell that integrates git. Check [HERE] to make it w
 
 # 8. Pro Tip
 
-- Sublime text 2 is a fantastic text editor – [check it out!]
+- VSCode is a great editing text and writing code – [check it out!]
 
-- If you use Mac or Linux, fix Zsh and replace the old boring terminal. Link and some explanation [can be found here].
+- If you use Mac or Linux, fix Zsh and replace the old boring terminal.Link and some explanation [can be found here].
 
 - Add aliases in the terminal for commands you use often – saves time!
 
@@ -178,5 +178,5 @@ There's a "plugin" for powershell that integrates git. Check [HERE] to make it w
 
 [HERE]:http://haacked.com/archive/2011/12/13/better-git-with-powershell.aspx
 [youtube]:http://www.youtube.com/watch?feature=player_detailpage&v=ZDR433b0HJY#t=2791s
-[check it out!]:http://www.sublimetext.com/2
+[check it out!]: https://code.visualstudio.com
 [can be found here]:http://www.maclife.com/article/columns/terminal_101_better_shell_zsh
