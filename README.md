@@ -135,7 +135,7 @@ Where should I put a .gitignore file?
 
 # 6. Remaining questions to investigate
 
-- [ ] 1. When do you need to press q? Sometimes the terminal locks up and then the solution is to press q, but when?
+- [ ] 1. When do you need to press q? Sometimes the terminal locks up and then the solution is to press q, but when? Sometimes you need to click control + c
 
 
 # 7. But what if I'm running Windows?
