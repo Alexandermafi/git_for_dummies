@@ -4,7 +4,7 @@ A guide on how to use Git in the command line (e.g. Terminal). Commands in Git a
 
 [1. Factory Metaphor]
 
-[2. Unix commands (a selection)]
+[2. Unix Commands (a selection)]
 
 [3. Git commands]
 
@@ -47,7 +47,7 @@ Metaphor concepts used: Inventory, loading dock, trucks shipping goods
 
 - git fetch -> Receives a truck full of goods but does NOT put them into your inventory
 
-# 2. Unix commands (a selection)
+# 2. Unix Commands (a selection)
 
 These are all the UNIX commands that work in the command line (e.g. Terminal). More details here: https://www.oliverelliott.org/article/computing/tut_unix/#100UsefulUnixCommands
 
