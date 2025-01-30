@@ -70,7 +70,6 @@ It's necessary to learn a few basic operating system concepts like how to operat
 | rm –r foldername | Recursively deletes all contents in a folder |
 | rm –rf foldername | Recursively deletes the folder named foldername. rf stands for recursive force which means it doesn't ask for permission when it's unsure, which it can be if something unexpected happens. For example, if there are files in subfolders. This command is specific to Mac (actually unix), on PC it's: rm foldername. VERY POWERFUL, so be careful. E.g., rm-rf * will delete EVERYTHING... |
 | nano README.md | Opens the file README.md in the terminal with the nano editor. You can then change the content directly in the terminal. Only applies to UNIX systems. |
-| vim README.md | Opens the file README.md in vim. Vim is cool (street cred in the IT world – kind of like driving an Aston Martin among I:are). |
 | man command | Brings up a detailed description of the command. EX: man cd |
 | command --help | Brings up a shorter help for a command. E.g. "git clone --help|
 | grep –r searchterm | Searches recursively in ALL FILES for the search term. Very powerful! Can be used with wildcard (*) |
@@ -135,7 +134,7 @@ Where should I put a .gitignore file?
 
 # 6. Remaining questions to investigate
 
-- [ ] 1. When do you need to press q? Sometimes the terminal locks up and then the solution is to press q, but when? Sometimes you need to click control + c
+- [ ] 1. When do you need to press q? Sometimes the terminal locks up and then the solution is to press q, but when? Sometimes you need to press "control + c"
 
 
 # 7. But what if I'm running Windows?
