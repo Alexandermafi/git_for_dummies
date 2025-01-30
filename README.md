@@ -1,6 +1,6 @@
 # Git for Dummies
 
-A guide on how to use git commands in Mac's terminal (command line), instructions mostly apply to PC as well. Commands in git and terminal (command line) will be explained and presented to provide insight into what can be done. The guide will use a factory metaphor to give Industrial Engineering and Management students the opportunity to understand git from a more familiar perspective.
+A guide on how to use Git commands in the terminal (the command line). Commands in Git and the terminal line will be explained and presented to provide insight into what can be done. The guide will use a factory metaphor to give Industrial Engineering and Management students the opportunity to understand git from a more familiar perspective.
 
 [1. Factory Metaphor - industrial engineering student perspective]
 
@@ -47,7 +47,7 @@ A guide on how to use git commands in Mac's terminal (command line), instruction
 
 # 2. Terminal commands (a selection)
 
-These are all the commands that work in the terminal.
+These are all the commands that work in the terminal. More details here: https://www.oliverelliott.org/article/computing/tut_unix/#100UsefulUnixCommands
 
 | Command | Function |
 | ------ | ------ |
@@ -166,6 +166,10 @@ There's a "plugin" for powershell that integrates git. Check [HERE] to make it w
 - http://gitref.org: reference for common commands (explained quite simply)
 
 - Intro to .git made by one of the founders of github: [youtube]
+
+- [Pro Git](https://git-scm.com/book/en/v2): This book (available online and in print) covers all the fundamentals of how Git works and how to use it. Refer to it if you want to learn more about the subjects that we cover throughout the course.
+
+- [Git tutorial](https://git-scm.com/docs/gittutorial): This tutorial includes a very brief reference of all Git commands available. You can use it to quickly review the commands that you need to use.
 
 [HERE]:http://haacked.com/archive/2011/12/13/better-git-with-powershell.aspx
 [youtube]:http://www.youtube.com/watch?feature=player_detailpage&v=ZDR433b0HJY#t=2791s
