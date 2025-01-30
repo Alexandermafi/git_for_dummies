@@ -153,11 +153,6 @@ Since the command prompt has no built-in git functionality, it's not very suitab
 
 Comes with the git installation and is like a terminal for windows. Most Unix commands work (you can overwrite even more), but it's quite slow to use, which is a bit sad.
 
-### Use powershell
-
-You've probably heard of the command prompt (run: cmd). There's a better "version": (run: powershell). Powershell is even more powerful than the terminal; powershell can do everything .NET can do – i.e. quite a lot.
-
-There's a "plugin" for powershell that integrates git. Check [HERE] to make it work. Need help? Ask Anton.
 
 # 8. Pro Tip
 
