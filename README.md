@@ -51,6 +51,10 @@ Metaphor concepts used: Inventory, loading dock, trucks shipping goods
 
 Basic Unix commands for file and folder manipulation that work in the command line (e.g. Terminal). More details here: https://www.oliverelliott.org/article/computing/tut_unix/#100UsefulUnixCommands
 
+Mac and Linux are unix-like systems and therefore unix commands works of the box. 
+
+For Windows the unic commands won't work by default, but you can install The Windows Subsystem for Linux (WSL) to get the same command line experience. Guide: https://learn.microsoft.com/en-us/windows/wsl/install. This allows you to e.g. install Ubuntu on your windows machine. 
+
 It's necessary to learn a few basic operating system concepts like how to operate on files, directories, and file systems with the command line. Since using Git with the command line, relies on the foundation knowledge of using unix commands to manipulate files and folders. 
 
 | Command | Function |
