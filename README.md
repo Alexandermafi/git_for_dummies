@@ -51,10 +51,10 @@ These are all the commands that work in the terminal.
 
 | Command | Function |
 | ------ | ------ |
-| cd folder1/folder2/folder3 | Changes to folder 3, which is in folder2 etc |
-| cd .. | Change directory to one step up |
 | cd | changes to your home folder (user) |
 | cd ~ | changes to your home folder (user) - notice the command below which does the same thing |
+| cd folder1/folder2/folder3 | Changes to folder 3, which is in folder2 etc |
+| cd .. | Change directory to one step up |
 | touch filename | Creates a new file named filename |
 | ls | Shows visible files and folders in the current location |
 | ls –a | Shows all (including hidden) files and folders in the current location: -a is called a flag for ls |
