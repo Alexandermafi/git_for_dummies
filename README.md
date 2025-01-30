@@ -1,8 +1,8 @@
 # Git for Dummies
 
-A guide on how to use Git commands in the terminal (the command line). Commands in Git and the terminal line will be explained and presented to provide insight into what can be done. The guide will use a factory metaphor to give Industrial Engineering and Management students the opportunity to understand git from a more familiar perspective. 
+A guide on how to use Git commands in the terminal (the command line). Commands in Git and the terminal line will be explained and presented to provide insight into what can be done. The guide will use a factory metaphor to understand git from perhaps a more familiar perspective. 
 
-[1. Factory Metaphor - industrial engineering student perspective]
+[1. Factory Metaphor]
 
 [2. Terminal commands (a selection)]
 
@@ -20,7 +20,7 @@ A guide on how to use Git commands in the terminal (the command line). Commands 
 
 [9. Additional Documentation]
 
-[1. Factory Metaphor - industrial engineering student perspective]:https://github.com/Alexandermafi/git_for_dummies#1-fabriksmetafor--industrial-engineering-student-perspective
+[1. Factory Metaphor]:https://github.com/Alexandermafi/git_for_dummies#1-factory-metaphor
 [2. Terminal commands (a selection)]:https://github.com/Alexandermafi/git_for_dummies#2-terminal-commands-a-selection
 [3. Git commands]:https://github.com/Alexandermafi/git_for_dummies#3-git-commands
 [4. FAQ]:https://github.com/Alexandermafi/git_for_dummies#5-faq
@@ -31,19 +31,19 @@ A guide on how to use Git commands in the terminal (the command line). Commands 
 [9. Additional Documentation]:https://github.com/Alexandermafi/git_for_dummies#11-Additional-Documentation
 
 
-# 1. Factory Metaphor - industrial engineering student perspective
+# 1. Factory Metaphor
 
-- git status -> Lets you see what goods you have in stock
+- git status -> Lets you see what goods you have in your inventory
 
-- git add -> Loads the goods onto the loading dock
+- git add -> Loads the goods onto your loading dock
 
 - git commit -m "message" -> Loads the goods into the truck. The goods are marked with the note "message"
 
 - git push -> Sends the truck to the recipient
 
-- git pull -> Receives a truck full of goods that are put into storage
+- git pull -> Receives a truck full of goods that are put into your inventory
 
-- git fetch -> Receives a truck full of goods but does NOT put them into storage
+- git fetch -> Receives a truck full of goods but does NOT put them into your inventory
 
 # 2. Terminal commands (a selection)
 
@@ -79,7 +79,7 @@ All commands that have to do with git start with git, followed by the command na
 | Command | Function |
 | ------ | ------ |
 | git clone | Creates a folder with the same name as the repo (repository) and copies the repo's contents there. It also sets up settings to push and pull to the remote (server). |
-| git status | These are our eyes. Gives an overview of which files are modified. Sees which goods are in stock. There are also a lot of tips on commands you can use here. |
+| git status | These are our eyes. Gives an overview of which files are modified. Sees which goods are in inventory. There are also a lot of tips on commands you can use here. |
 | git add filename | Loads the file filename onto the loading dock. Also used to tell git to track new files or folders. |
 | git add . | Loads all modified files (in the current folder?) onto the loading dock |
 | git commit –m "message" | Loads it into the truck with the note "message" |
