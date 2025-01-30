@@ -49,9 +49,9 @@ Metaphor concepts used: Inventory, loading dock, trucks shipping goods
 
 # 2. Unix Commands (a selection)
 
-These are all the UNIX commands that work in the command line (e.g. Terminal). More details here: https://www.oliverelliott.org/article/computing/tut_unix/#100UsefulUnixCommands
+Basic Unix commands for file and folder manipulation that work in the command line (e.g. Terminal). More details here: https://www.oliverelliott.org/article/computing/tut_unix/#100UsefulUnixCommands
 
-It's necessary to learn a few basic operating system concepts like how to operate on files, directories, and file systems with the command line. 
+It's necessary to learn a few basic operating system concepts like how to operate on files, directories, and file systems with the command line. Since using Git with the command line, relies on the foundation knowledge of using unix commands to manipulate files and folders. 
 
 | Command | Function |
 | ------ | ------ |
