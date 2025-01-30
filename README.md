@@ -163,15 +163,19 @@ Comes with the git installation and is like a terminal for windows. Most Unix co
 
 # 9. Additional Documentation
 
-- http://git-scm.org: official website for .git
-
-- http://gitref.org: reference for common commands (explained quite simply)
-
-- Intro to .git made by one of the founders of github: [youtube]
-
+- Git official website: http://git-scm.org
+- Youtube - Intro to Git made by a Github founder: https://www.youtube.com/watch?v=ZDR433b0HJY
+- Beginner-friendly Git & GitHub course from Google : https://www.coursera.org/learn/introduction-git-github
 - [Pro Git](https://git-scm.com/book/en/v2): This book (available online and in print) covers all the fundamentals of how Git works and how to use it. Refer to it if you want to learn more about the subjects that we cover throughout the course.
-
 - [Git tutorial](https://git-scm.com/docs/gittutorial): This tutorial includes a very brief reference of all Git commands available. You can use it to quickly review the commands that you need to use.
+- Git game for practice: https://ohmygit.org/
+- Additional git course options:
+    - https://profy.dev/project/github-minesweeper
+    - https://www.theodinproject.com/lessons/foundations-introduction-to-git
+- Command line tutorial (needed for file and folder manipulation) options:
+    - https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
+    - https://www.theodinproject.com/lessons/foundations-command-line-basics
+    - Linux Tutorial for Beginners - Learn Linux and the Bash Command Line https://ryanstutorials.net/linuxtutorial/ 
 
 [HERE]:http://haacked.com/archive/2011/12/13/better-git-with-powershell.aspx
 [youtube]:http://www.youtube.com/watch?feature=player_detailpage&v=ZDR433b0HJY#t=2791s
