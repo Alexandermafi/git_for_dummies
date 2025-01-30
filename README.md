@@ -1,6 +1,6 @@
 # Git for Dummies
 
-A guide on how to use Git commands in the terminal (the command line). Commands in Git and the terminal line will be explained and presented to provide insight into what can be done. The guide will use a factory metaphor to give Industrial Engineering and Management students the opportunity to understand git from a more familiar perspective.
+A guide on how to use Git commands in the terminal (the command line). Commands in Git and the terminal line will be explained and presented to provide insight into what can be done. The guide will use a factory metaphor to give Industrial Engineering and Management students the opportunity to understand git from a more familiar perspective. 
 
 [1. Factory Metaphor - industrial engineering student perspective]
 
@@ -47,7 +47,9 @@ A guide on how to use Git commands in the terminal (the command line). Commands 
 
 # 2. Terminal commands (a selection)
 
-These are all the commands that work in the terminal. More details here: https://www.oliverelliott.org/article/computing/tut_unix/#100UsefulUnixCommands
+These are all the commands that work in the terminal (the command line). More details here: https://www.oliverelliott.org/article/computing/tut_unix/#100UsefulUnixCommands
+
+It's necessary to learn a few basic operating system concepts like how to operate on files, directories, and file systems with the command line. 
 
 | Command | Function |
 | ------ | ------ |
@@ -76,7 +78,7 @@ All commands that have to do with git start with git, followed by the command na
 
 | Command | Function |
 | ------ | ------ |
-| git clone | Creates a folder with the same name as the repo (repository) and copies the contents of the repo there. Also sets up settings to push and pull to the remote (server). |
+| git clone | Creates a folder with the same name as the repo (repository) and copies the repo's contents there. It also sets up settings to push and pull to the remote (server). |
 | git status | These are our eyes. Gives an overview of which files are modified. Sees which goods are in stock. There are also a lot of tips on commands you can use here. |
 | git add filename | Loads the file filename onto the loading dock. Also used to tell git to track new files or folders. |
 | git add . | Loads all modified files (in the current folder?) onto the loading dock |
@@ -97,8 +99,13 @@ All commands that have to do with git start with git, followed by the command na
 | git branch | lists all branches that exist |
 | git branch branchname | Creates a new branch called branchname |
 | git checkout branchname | Switches from current branch to branchname |
+| git switch branchname | Switches from current branch to branchname |
 | git checkout –b branchname | Creates a new branch called branchname and switches to it |
 | git merge branchname | Merge current branch with branchname |
+| git init | create a new repository in the folder where you stand |
+| git rebase | align commit history |
+| git revert | undo commits |
+
 
 # 4. FAQ
 
