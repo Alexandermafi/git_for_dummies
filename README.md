@@ -12,7 +12,7 @@ A guide on how to use Git in the command line (e.g. Terminal). Commands in Git a
 
 [5. Miscellaneous - good to know + glossary]
 
-[6.  When the Terminal Locks Up - Press Q or "ctrl + c" to get Out]
+[6.  When the Terminal Locks Up]
 
 [7. But what if you're running Windows?]
 
@@ -25,7 +25,7 @@ A guide on how to use Git in the command line (e.g. Terminal). Commands in Git a
 [3. Git commands]:https://github.com/Alexandermafi/git_for_dummies#3-git-commands
 [4. FAQ]:https://github.com/Alexandermafi/git_for_dummies#5-faq
 [5. Miscellaneous - good to know + glossary]:https://github.com/Alexandermafi/git_for_dummies#6-Miscellaneous--good-to-know
-[6.  When the Terminal Locks Up - Press Q or "ctrl + c" to get Out]:https://github.com/Alexandermafi/git_for_dummies#7-When-the-Terminal-Locks-Up---Press-Q-or-ctrl-+-c-to-get-Out
+[6.  When the Terminal Locks Up - Press Q or "ctrl + c" to get Out]:https://github.com/Alexandermafi/git_for_dummies#7-When-the-Terminal-Locks-Up
 [7. But what if you're running Windows?]:https://github.com/Alexandermafi/git_for_dummies#9-But-what-if-you-re-running-Windows
 [8. Pro Tip]:https://github.com/Alexandermafi/git_for_dummies#10-pro-tip
 [9. Additional Documentation]:https://github.com/Alexandermafi/git_for_dummies#11-Additional-Documentation
@@ -144,7 +144,7 @@ Where should I put a .gitignore file?
 
 
 
-# 6. When the Terminal Locks Up - Press Q or "ctrl + c" to get Out
+# 6. When the Terminal Locks Up
 
 Terminal Navigation: When to use 'q' vs 'control + c'. Think of 'q' as a gentle exit from a viewing mode, while 'control + c' is an emergency stop button for active processes.
 
