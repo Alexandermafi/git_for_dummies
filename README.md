@@ -192,7 +192,7 @@ Comes with the git installation and is like a terminal for windows. Most Unix co
 # 9. Additional Documentation
 
 
-- **Highly recommended course:** Git & GitHub course from Google : https://www.coursera.org/learn/introduction-git-github - beginner-friendly and well-structure.  
+- **Highly recommended course:** Git & GitHub course from Google : https://www.coursera.org/learn/introduction-git-github - beginner-friendly and well-structured.  
 - Git official website: http://git-scm.org
 - Youtube - Intro to Git made by a Github founder: https://www.youtube.com/watch?v=ZDR433b0HJY
 - [Pro Git](https://git-scm.com/book/en/v2): This book (available online and in print) covers all the fundamentals of how Git works and how to use it. Refer to it if you want to learn more about the subjects that we cover throughout the course.
