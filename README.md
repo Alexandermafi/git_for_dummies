@@ -61,6 +61,7 @@ It's necessary to learn a few basic operating system concepts like how to operat
 | ------ | ------ |
 | cd | changes to your home folder (user) |
 | cd ~ | changes to your home folder (user) - notice the command below which does the same thing |
+| cd - | Changes to the previous working directory |
 | cd folder1/folder2/folder3 | Changes to folder 3, which is in folder2 etc |
 | cd .. | Change directory to one step up |
 | touch filename | Creates a new file named filename |
